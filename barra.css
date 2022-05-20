@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+Body {
+    background-color: rgb(174 148 109);
+    color:black;
+    font-size: 16px;
+}
+
+nav {position: fixed;
+    width: 100%;
+    background-color: Black;
+    text-align: left;
+}
+nav ul {
+    display: inline-flex;
+    list-style: none;  
+}
+nav ul li {line-height: 20px;
+
+    margin:15px;
+    padding:0px;
+}
+nav ul li a{
+    font-size: 26px;
+    text-decoration: none;
+    color:rgb(16, 248, 8);
+    font-weight: 800;
+   line-height: 60px;
+   top:0%
+}
+.menu {
+    display: none;
+
+}
+nav ul li:hover .menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(20, 20, 20);
+    margin-top: 1px;
+    margin-left: -16px;
+}
+nav ul li:hover .menu ul {
+    display: block;
+    
+}
+nav ul li:hover .menu ul li{
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+nav ul li:hover .menu ul li:hover{
+    background-color: rgb(37, 37, 36);
+    
+}
+nav ul li:hover{
+    text-decoration:underline; }
+
+
+    ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+h1{ font-size: 40px;
+    color: Black;}
+.Titulo{background-color:rgba(0,0,0,0.4);
+    font-size: 25px;
+    color:rgb(16, 248, 8);
+   text-decoration:underline;
+    padding: 10px;
+   border: 3px;
+text-align: center;
+width: 80%;
+margin-left: 192px;
+left: 100px;
+line-height: 110px;
+}
+.Foto{
+    background-color:rgba(0,0,0,0.4);
+    text-align: center;
+    width: 80%;
+    margin-left: 192px;
+
+
+}
+.texto{background-color:rgba(0,0,0,0.4);
+    font-size: 22px;
+    color:white;
+    padding: 10px;
+   border: 3px;
+   margin-left: 192px;
+text-align: justify;
+width:80%;
+left: 100px;}
+.fundo{
+    width: 100%;
+    background-color:rgb(174 148 109);
+}
+.Supremo{
+background-color:rgba(0,0,0,0.4);
+    font-size: 30px;
+    color:rgb(16, 248, 8);
+   text-decoration:underline;
+    padding: 10px;
+   border: 3px;
+text-align: center;
+width: 80%;
+margin-left: 192px;
+left: 100px;
+line-height: 110px;}
