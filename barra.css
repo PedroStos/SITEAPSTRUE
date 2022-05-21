@@ -81,16 +81,16 @@ h1{ font-size: 40px;
     padding: 10px;
    border: 3px;
 text-align: center;
-width: 80%;
-margin-left: 192px;
+width: 90%;
+margin-left: 92px;
 left: 100px;
 line-height: 110px;
 }
 .Foto{
     background-color:rgba(0,0,0,0.4);
     text-align: center;
-    width: 80%;
-    margin-left: 192px;
+    width: 90%;
+    margin-left: 92px;
 
 
 }
@@ -99,9 +99,9 @@ line-height: 110px;
     color:white;
     padding: 10px;
    border: 3px;
-   margin-left: 192px;
+   margin-left: 92px;
 text-align: justify;
-width:80%;
+width:90%;
 left: 100px;}
 .fundo{
     width: 100%;
@@ -113,12 +113,12 @@ left: 100px;}
 .Supremo{
 background-color:rgba(0,0,0,0.4);
     font-size: 30px;
-    color:rgb(0, 0, 0);
+    color:rgb(16, 248, 8);
    text-decoration:underline;
     padding: 10px;
    border: 3px;
 text-align: center;
-width: 80%;
-margin-left: 192px;
+width: 90%;
+margin-left: 92px;
 left: 100px;
 line-height: 110px;}
